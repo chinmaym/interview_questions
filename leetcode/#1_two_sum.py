@@ -1,13 +1,14 @@
+# Question Number 1
 
 '''*******  My Solution  *********'''
 def twoSum(num_list,target):
 	num_dict={}
 	for n,i in enumerate(num_list):
 		diff = target - i
-		if num_dict.get(diff) is not None and num_dict.get(diff)!=n:
+		if num_dict.get(diff) is not None:
 			return [num_dict[diff],n]
-		else:
-			num_dict[i] = n
+		num_dict[i] = n
+	return False
 
 
 # '''*******  My Solution  2*********'''
