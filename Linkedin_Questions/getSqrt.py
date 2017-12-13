@@ -4,19 +4,21 @@ Find sqrt of an integer. And if it's not a perfect square then return the floor 
 import math
 def binaryMethod(x):
 	low = 0
-	high = float(x)/2
+	high = float(x)
 	answer = None
 	while low<=high:
+		print answer
 		mid = (low+high)/2
 		print low,high,mid
 		foundSquare = mid*mid
 		if foundSquare == x:
 			return mid
 		elif foundSquare > x:
-			high = math.ceil(mid)-1
-			answer = high
+			answer = low
+			high = mid-0.9
 		else:
-			low = math.floor(mid)+1
+			anser = high
+			low = mid+0.9
 	return answer
 
 

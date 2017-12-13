@@ -21,10 +21,9 @@ def main(userInput):
 				continue
 			else:
 				return False
-	if len(userInput)-1 > i:
+	if len(q)>0:
 		return False
-	else:
-		return True
+	return True
 
 
 if __name__=="__main__":
