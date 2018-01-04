@@ -1,0 +1,1 @@
+../leetcode/205_isomorphic_strings.py

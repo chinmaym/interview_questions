@@ -42,7 +42,7 @@ LinkedIn(39)
 
 Google(90)
 
-Median of Two Sorted Arrays 18.6% Hard
+4 Median of Two Sorted Arrays 18.6% Hard
 10 Regular Expression Matching 22.0% Hard
 17 Letter Combinations of a Phone Number 28.6% Medium
 20 Valid Parentheses 29.3% Easy

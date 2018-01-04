@@ -28,14 +28,14 @@ LeetCode ID | Questions
 --------156 Binary Tree Upside Down 38.3% Medium
 --------173 Binary Search Tree Iterator 34.5% Medium
 187 Repeated DNA Sequences 25.2% Medium
-236 Lowest Common Ancestor of a Binary Tree 28.8% Medium
+--------236 Lowest Common Ancestor of a Binary Tree 28.8% Medium
 238 Product of Array Except Self 42.6% Medium
 244 Shortest Word Distance II 35.3% Medium
 245 Shortest Word Distance III 46.0% Medium
-254 Factor Combinations 34.7% Medium
-256 Paint House 42.6% Medium
-277 Find the Celebrity 35.1% Medium
-311 Sparse Matrix Multiplication 47.2% Medium
+--------254 Factor Combinations 34.7% Medium
+--------256 Paint House 42.6% Medium
+--------277 Find the Celebrity 35.1% Medium
+--------311 Sparse Matrix Multiplication 47.2% Medium
 
 ------------------------------Hard-----------------------------------
 
