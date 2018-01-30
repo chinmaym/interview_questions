@@ -16,10 +16,8 @@ class Tree():
 		if (curNode.val == node2Val):
 			valuePresent[1] = True
 			return curNode
-
 		leftNode = self.leastCommonAncestor(node1Val,node2Val,curNode.left,valuePresent)
 		rightNode = self.leastCommonAncestor(node1Val,node2Val,curNode.right,valuePresent)
-
 		if leftNode and rightNode:
 			return curNode
 		return leftNode if leftNode is not None else rightNode

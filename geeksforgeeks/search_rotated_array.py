@@ -17,7 +17,7 @@ class Solution(object):
 				start = mid + 1
 			else:
 				end = end - 1
-
+		return -1
 
 
 if __name__=="__main__":

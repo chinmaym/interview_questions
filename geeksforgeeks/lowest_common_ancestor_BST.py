@@ -1,4 +1,11 @@
-
+'''
+Finding the least common ancestor
+		 50
+	   /    \
+	  30     70
+	 /  \   /  \
+	20  40 60   80
+'''
 
 class Node():
 	def __init__(self,val):
@@ -14,7 +21,6 @@ class BST():
 			return self.LCA(node1Val,node2Val,curNode.left)
 		if node1Val > curNode.val and curNode.val < node2Val:
 			return self.LCA(node1Val,node2Val,curNode.right)
-
 		return curNode.val
 
 

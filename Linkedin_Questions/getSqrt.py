@@ -15,10 +15,10 @@ def binaryMethod(x):
 			return mid
 		elif foundSquare > x:
 			answer = low
-			high = mid-0.9
+			high = mid-0.001
 		else:
 			anser = high
-			low = mid+0.9
+			low = mid+0.001
 	return answer
 
 

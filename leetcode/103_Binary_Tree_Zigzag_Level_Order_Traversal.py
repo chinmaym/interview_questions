@@ -28,27 +28,26 @@ class Tree():
 
     def printZigzag(self,nodeList):
         i = 0;level = 0
-	result = []
-	while i < len(nodeList):
-	    start = i
-	    finish = 2*i
-	    if finish < len(nodeList):
+    	result = []
+    	while i < len(nodeList):
+    	    start = i
+    	    finish = 2*i
+    	    if finish < len(nodeList):
                 subList = list(nodeList[start:finish+1])
-	    else:
-		subList = list(nodeList[start:len(nodeList)+1])
+    	    else:
+    		    subList = list(nodeList[start:len(nodeList)+1])
             subList = [int(x) for x in subList if x != 'null']
-	    if level % 2 == 0:
-	        result.append(subList)
-	    else:
-	        subList.reverse()
-	        result.append(subList)
-	    i = finish + 1
-	    level += 1
-	return result
+    	    if level % 2 == 0:
+    	        result.append(subList)
+    	    else:
+    	        subList.reverse()
+    	        result.append(subList)
+    	    i = finish + 1
+    	    level += 1
+    	return result
 
 
 if __name__=="__main__":
     nums = raw_input().split(' ')
     print nums
     print Tree().printZigzag(nums)
-

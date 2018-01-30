@@ -1,11 +1,8 @@
 '''
-Input: “forgeeksskeegfor”  Longest Palindrome:  “geeksskeeg”
+Input: forgeeksskeegfor  Longest Palindrome: geeksskeeg
 output:10
-
-
 '''
-def main():
-	userString = raw_input()
+def main(userString):
 	strLength = len(userString)
 	table = [[False for _ in range(len(userString))] for _ in range(len(userString))]
 	for i in range(len(userString)):
@@ -29,8 +26,10 @@ def main():
 					maxPalindromeLength = k
 			i += 1
 		k += 1
-	return  maxPalindromeLength
+	return  start,maxPalindromeLength
 
 
 if __name__=="__main__":
-	print main()
+	userString = raw_input()
+	i,l = main(userString)
+	print userString[i:i+l]
