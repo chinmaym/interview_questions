@@ -15,10 +15,10 @@ class MaxHeap():
         right = self.heapify(cur*2+2)
         if right >= left and right>self.arr[cur]:
             self.arr[cur],self.arr[cur*2+2] = self.arr[cur*2+2],self.arr[cur]
-            self.heapify(cur)
+            self.heapify(cur*2+2)
         elif left > right and left>self.arr[cur]:
             self.arr[cur],self.arr[cur*2+1] = self.arr[cur*2+1],self.arr[cur]
-            self.heapify(cur)
+            self.heapify(cur*2+1)
         return self.arr[cur]
 
 def main():

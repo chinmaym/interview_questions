@@ -203,7 +203,7 @@ Airbnb(20)
 
 Facebook(79)
 
-Two Sum 23.0% Easy
+1  Two Sum 23.0% Easy
 10 Regular Expression Matching 22.0% Hard
 13 Roman to Integer 39.2% Easy
 15 3Sum 18.8% Medium
