@@ -21,13 +21,14 @@ def powerSetR(numList,memo=[]):
 
 def powerSetI(numList,memo=[]):
     listLen = len(numList)
-    for i in range(1<<listLen)
+    for i in range(1<<listLen):
+        memo.append([numList[j] for j in range(listLen) if (i&1<<j)])
 
 
 def main():
-    numList = [1,2,3,4,5,6,7]
+    numList = [1,2,3,4]
     memo = []
-    powerSet(numList,memo)
+    powerSetI(numList,memo)
     print len(memo),memo
 
 if __name__=="__main__":
