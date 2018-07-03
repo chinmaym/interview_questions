@@ -15,3 +15,6 @@ QNo.                              Questions                     Difficulty
 #13.                           Roman to Integer                    Easy
 14.                          Longest Common Prefix                 Easy
 15.                                 3sum                          Medium
+
+
+543.                         Diameter of Binary Tree               Easy
