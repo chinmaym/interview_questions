@@ -20,8 +20,8 @@ class Tree:
             nodeList.append(None)
             return
         nodeList.append(root.val)
-        self.serialize(root.left)
-        self.serialize(root.right)
+        self.serialize(root.left,nodeList)
+        self.serialize(root.right,nodeList)
 
 
     def deSerialize(self,root,nodeList,i=0):
@@ -50,8 +50,8 @@ def main():
     tree.serialize(root,nodeList)
     print nodeList
     node = Node(0)
-    tree.deSerialize(node,nodeList)
-    tree.printTree(node)
+    # tree.deSerialize(node,nodeList)
+    # tree.printTree(node)
 
 if __name__ == '__main__':
     main()
